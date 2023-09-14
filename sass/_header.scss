@@ -19,6 +19,9 @@
 
   @media only screen and (max-width: $bp-medium) {
     grid-column: 1 / -1;
+    grid-template-rows: none;
+    align-items: center;
+    grid-row-gap: 0;
   }
 
   @media only screen and (max-width: $bp-small) {
@@ -26,8 +29,9 @@
   }
 
   &__logo {
-    height: 3rem;
-    justify-self: center;
+    height: 5rem;
+    justify-self: left;
+    margin-top: 3rem;
   }
 
   &__btn {
